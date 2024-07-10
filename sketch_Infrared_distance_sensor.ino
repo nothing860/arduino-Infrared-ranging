@@ -3,7 +3,7 @@ int intSensorResult = 0; //感測器結果
 float fltSensorCalc = 0; //計算值
 void setup()
 {
-Serial.begin(9600); // 設定與電腦的通訊以顯示結果串列監視器
+Serial.begin(115200); // 設定與電腦的通訊以顯示結果串列監視器
 }
 void loop()
 {
